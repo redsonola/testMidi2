@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "HelloWorldTest",
+      "setup": "mvn -B package --file pom.xml",
+      "run": "java -jar target/demo-1.0.jar",
+      "input": "",
+      "output": "Hello, World!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
